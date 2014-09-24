@@ -1,0 +1,66 @@
+.form-group input,
+.form-group textarea {
+	padding: 20px;
+}
+
+.form-group .dropdown-toggle {
+	padding: 20px 20px 40px 20px;
+}
+
+.form-group .dropdown-menu {
+	width: 100%;
+}
+
+.form-group .dropdown-menu li a{
+	padding: 20px;
+}
+
+.form-group .dropdown-menu li.dropdown-header {
+	padding: 20px;
+}
+
+.form-group input.form-control {
+	height: auto;
+}
+
+.form-group textarea.form-control {
+	height: 149px;
+}
+
+.form-control:focus {
+	border-color: #fed136;
+	box-shadow: none;
+}
+
+.form-control .text-danger {
+	color: #e74c3c;
+}
+
+.form-control .dropdown .dropdown-menu {
+	width: 100%;
+}
+
+::-webkit-input-placeholder {
+	font-family: "Roboto Slab", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	color: #555;
+}
+
+::-moz-placeholder {
+	text-transform: uppercase;
+	font-family: "Roboto Slab", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	color: #555;
+}
+
+::-moz-placeholder {
+	font-family: "Roboto Slab", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	color: #555;
+}
+
+::-ms-input-placeholder {
+	font-family: "Roboto Slab", Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-weight: 400;
+	color: #555;
+}

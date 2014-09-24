@@ -1,0 +1,270 @@
+extends layout
+
+block nav
+	ul.nav.navbar-nav.navbar-right
+		li.hidden
+			a(href='#page-top')
+		li
+			a.page-scroll(title='fordele', href='#introduction') fordele
+		li
+			a.page-scroll(title='casestudier', href='#cases') casestudier
+		li
+			a.page-scroll(title='tidslinje', href='#timeline') tidslinje
+		li
+			a.page-scroll(title='hold', href='#team') hold
+		li
+			a.page-scroll(title='kontakt', href='#contact') kontakt
+
+block body
+	section#introduction
+		.container
+			.row
+				.col-lg-12.text-center
+					h2.section-heading Fordele
+					h3.section-subheading.text-muted forbedre borgernes livskvalitet
+			.row.text-center
+				.col-md-4
+					span.fa-stack.fa-4x
+						i.fa.fa-circle.fa-stack-2x.text-primary
+						i.fa.fa-key.fa-stack-1x.fa-inverse
+					h4.service-heading brugervenlighed
+					p.text-muted.text-justify
+						| Vores filosofi er at identificere de behov og problemer i vores kunder først, og udvikle den nøjagtige system, adressering dem efter. Dette betyder, at produkterne er enkel og effektiv i naturen.
+					p.text-muted.text-justify
+						| Vores kombinerede erfaring i software arkitektur, design, udvikling og vedligeholdelse giver os mulighed for at levere produktpakker, der er modulopbygget og effektiv.
+				.col-md-4
+					span.fa-stack.fa-4x
+						i.fa.fa-circle.fa-stack-2x.text-primary
+						i.fa.fa-users.fa-stack-1x.fa-inverse
+					h4.service-heading brugerinddragelse
+					p.text-muted.text-justify
+						| Forud for at udvikle en løsning, vi grundigt forskning vores kunder for at få førstehånds erfaring med deres arbejde praksis, og konstruere en sammenhængende vision for den nødvendige ændring.
+					p.text-muted.text-justify
+						| Så vi genuinly involvere vores brugere i udviklingen af produktet, med henblik på at tilpasse den til deres behov. Vi leverer gentagelser af vores produkter til interessenterne, så vi anker vores visioner.
+				.col-md-4
+					span.fa-stack.fa-4x
+						i.fa.fa-circle.fa-stack-2x.text-primary
+						i.fa.fa-dashboard.fa-stack-1x.fa-inverse
+					h4.service-heading fleksible priser
+					p.text-muted.text-justify
+						| Vi giver mulighed for et abonnement og modul-baserede pris for vores produkter. Det betyder, at vores brugere kan tilpasse deres betalinger, som de går med vores produkt, og tilføje eller fjerne funktionalitet til deres præferencer.
+					p.text-muted.text-justify
+						| De nødvendige ressourcer til at udvikle sådanne systemer er meget muligt i dag, hvilket gør priserne attraktivt for vores kunder så godt.
+	section#cases.bg-light-gray
+		.container
+			.row
+				.col-lg-12.text-center
+					h2.section-heading Casestudier
+					h3.section-subheading.text-muted innovative digitale økosystemer
+			.row
+				.col-md-12.col-sm-12.portfolio-item
+					a.portfolio-link(title='fortæl mig mere', href='#portfolioModal1', data-toggle='modal')
+						.portfolio-hover
+							.portfolio-hover-content
+								i.fa.fa-plus.fa-3x
+						img.img-responsive(src='img/portfolio/bredebo/carelendar.png', alt='Carelendar')
+					.portfolio-caption
+						h4 Plejecenter Bredebo
+						p.text-muted let at bruge event manager for Lyngby-Taarbæk kommunes
+	section#timeline
+		.container
+			.row
+				.col-lg-12.text-center
+					h2.section-heading Tidslinje
+					h3.section-subheading.text-muted holde styr på vores arbejde
+			.row
+				.col-lg-12
+					ul.timeline
+						li
+							.timeline-image
+								img.img-circle.img-responsive(src='img/about/dsi.png', alt='sommerskole i digital innovation')
+							.timeline-panel
+								.timeline-heading
+									h4.yellow August 11 2014
+									h4.subheading sommerskole i digital innovation
+									p.text-muted
+										| Vi har deltaget i sommerskolen i digitale tjenester innovation arrangeret af Institut for Datalogi, Københavns Universitet. vores case partnere var det Bredebo plejecenter.
+						li.timeline-inverted
+							.timeline-image
+								img.img-circle.img-responsive(src='img/about/interview.png', alt='interviews på Bredebo')
+							.timeline-panel
+								.timeline-heading
+									h4.yellow August 16 2014
+									h4.subheading interviews på Bredebo
+								.timeline-body
+									p.text-muted
+										| Vi startede vores undersøgelse ved at analysere casen og besøger Bredebo plejecenter. der havde vi første hånd erfaring med deres daglige rutiner, og gennemført interviews med plejepersonalet og aktivitetscenter personale.
+						li
+							.timeline-image
+								img.img-circle.img-responsive(src='img/about/iteration.png', alt='Prototype iteration på Bredebo')
+							.timeline-panel
+								.timeline-heading
+									h4.yellow August 21 2014
+									h4.subheading Prototype iteration på Bredebo
+								.timeline-body
+									p.text-muted
+										| Vi gennemførte participatory design med personalet ved hjælp af daglige gentagelser af vores prototype. den pårørende og aktivitetscenter personale forudsat værdifuld indsigt ved at gøre os fejle hurtigt og tilpasse vores prototype til deres daglige praksis.
+						li.timeline-inverted
+							.timeline-image
+								img.img-circle.img-responsive(src='img/about/stallion.png', alt='Prototype "glemt" i plejecenter')
+							.timeline-panel
+								.timeline-heading
+									h4.yellow August 25 2014
+									h4.subheading Prototype "glemt" i plejecenter
+								.timeline-body
+									p.text-muted
+										| Vi installerede vores prototype på TV i midten. I første omgang vores omsorgsperson Zophie brugt vores prototype i løbet af en normal arbejdsdag. Så hele menigheden brugt vores forbedrede prototype med reelle data i deres arbejde.
+						li
+							.timeline-image
+								img.img-circle.img-responsive(src='img/about/pitch.png', alt='Projekt pitch til case partnere')
+							.timeline-panel
+								.timeline-heading
+									h4.yellow August 27 2014
+									h4.subheading Projekt pitch til case partnere
+								.timeline-body
+									p.text-muted
+										| Præsenterede vi vores resultater foran case partnere, der var tilfredse med vores endelige protoype og besluttede at pitche det til kommunen.
+						li.timeline-inverted
+							.timeline-image
+								img.img-circle.img-responsive(src='img/about/pilot.png', alt='Vej til kontrakt for pilotprojekt')
+							.timeline-panel
+								.timeline-heading
+									h4.yellow September 15 2014
+									h4.subheading Vej til kontrakt for pilotprojekt
+								.timeline-body
+									p.text-muted
+										| Case partnere har gode nyheder. Vi er nu i færd med at forberede vilkårene for et pilotprojekt. Tid til at ansøge om iværksætterprogrammer!
+						li.timeline-inverted
+							.timeline-image
+								h4
+									| næste
+									br
+									| skridt
+									br
+									| snart
+	section#team.bg-light-gray
+		.container
+			.row
+				.col-lg-12.text-center
+					h2.section-heading Hold
+					h3.section-subheading.text-muted bringer vi en heterogen team af højt kvalificerede fagfolk
+			.row
+				.col-sm-3
+					.team-member
+						img.img-responsive.img-circle(src='img/team/andreas-bw.jpg', alt='Andreas Johansen')
+						h4 Andreas Johansen
+						p.text-muted IT + Sundhed
+						ul.list-inline.social-buttons
+							li
+								a.linkedin(target='_blank', title='Andreas Johansen på Linkedin', href='http://dk.linkedin.com/pub/andreas-johansen/84/119/938')
+									i.fa.fa-linkedin
+				.col-sm-3
+					.team-member
+						img.img-responsive.img-circle(src='img/team/frederik-bw.jpg', alt='Frederik Lauridsen')
+						h4 Frederik Lauridsen
+						p.text-muted Kommunikation + IT
+						ul.list-inline.social-buttons
+							li
+								a.linkedin(target='_blank', title='Frederik Lauridsen på Linkedin', href='http://dk.linkedin.com/in/frederikvblauridsen')
+									i.fa.fa-linkedin
+				.col-sm-3
+					.team-member
+						img.img-responsive.img-circle(src='img/team/vlad-bw.jpg', alt='Vlad Manea')
+						h4 Vlad Manea
+						p.text-muted Datalogi + Teknologi
+						ul.list-inline.social-buttons
+							li
+								a.linkedin(target='_blank', title='Vlad Manea på Linkedin', href='http://dk.linkedin.com/in/vladmanea/')
+									i.fa.fa-linkedin
+				.col-sm-3
+					.team-member
+						img.img-responsive.img-circle(src='img/team/konstantin-bw.jpg', alt='Konstantin Slavin-Borovskij')
+						h4 Konstantin Slavin-Borovskij
+						p.text-muted Datalogi + Operationer
+						ul.list-inline.social-buttons
+							li
+								a.linkedin(target='_blank', title='Konstantin Slavin-Borovskij på Linkedin', href='http://dk.linkedin.com/pub/konstantin-slavin-borovskij/42/30/a76')
+									i.fa.fa-linkedin
+	aside.clients.hidden
+		.container
+			.row
+				.col-lg-10.col-lg-offset-1.text-center
+					p.text-center
+						| Vi vil gerne takke Troels Sune Mønsted, Klaus Marius Hansen og Dorthe Frustrand Lauritzen fra Københavns Universitet for omfattende hjælp i den indledende forskning fase. Vi vil gerne takke Lene Wedele Henriksen, Linda Johnsen fra Lyngby-Taarbæk Kommune for at tro og pitching i vores projekt. Vi takker Bredebo center pårørende og aktivitetscentre for at hjælpe os forstyrre deres aktiviteter :)
+	section#contact
+		.container
+			.row
+				.col-lg-12.text-center
+					h2.section-heading Kontakt
+			.row
+				.col-lg-12
+					form#contactForm(method='post', action='/contact')
+						.row
+							.col-md-6
+								.form-group
+									input#name.form-control(name='name', type='text', placeholder='Dit navn *', required='required', data-validation-required-message='Skal du indtaste dit navn.')
+									p.help-block.text-danger
+								.form-group
+									input#email.form-control(name='email', type='email', placeholder='Din e-mail *', required='required', data-validation-required-message='Skal du indtaste din e-mail.')
+									p.help-block.text-danger
+								.form-group
+									input#phone.form-control(name='phone', type='tel', placeholder='Din telefon *', required='required', data-validation-required-message='Skal du indtaste din telefon.')
+									p.help-block.text-danger
+							.col-md-6
+								.form-group
+									textarea#message.form-control(name='message', placeholder='Din besked *', required='required', data-validation-required-message='Skal du indtaste din besked.')
+									p.help-block.text-danger
+							.clearfix
+							.col-lg-12.text-center
+								#success
+								button.btn.btn-xl(type='submit')
+									i.fa.fa-send
+									| 
+									| send
+
+block modals
+	#portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+		.modal-content
+			.close-modal(data-dismiss='modal')
+				.lr
+					.rl
+			.container
+				.row
+					.col-lg-8.col-lg-offset-2
+						.modal-body
+							h2 Plejecenter Bredebo
+							p.item-intro.text-muted let at bruge event manager for Lyngby-Taarbæk kommune
+							img.img-responsive(src='img/portfolio/bredebo/carelendar-full.png', alt='Carelendar')
+							p.text-justify
+								| Daginstitutioner har problemer med at organisere de hektiske aktiviteter og aftaler for deres beboere. Der er klager fra flere parter om ikke at have beboerne klar som planlagt. Beboere, der savner udnævnelser selv forvirret og deres livskvalitet er nedsat.
+							p.text-justify
+								| På Plejecenter Bredebo, personalet bruger en etableret proces til at leve op til deres udfordringer, men de bruger alt for mange værktøjer. De har distribueret whiteboards, delte kalendere, individuelle caregiver notesbøger, og en digital healt
+								| t-system. Vi har bekræftet, at anvendelsen af ​​alle disse systemer opfylder kravene til arbejde rutine, men komplicerer videregive og behandle information. De erstatter ofte værktøj med ord i munden, som dybt påvirker deres realtid aktivitet planlægning.
+							p.text-justify
+								| Fra starten har vores primære mål været at hjælpe de ansatte i de daglige arbejdsrutiner, og ikke ændre eller komplicere deres arbejde. Ved at have dette i tankerne, har vi skabt et system, der giver en nem at bruge oplysende overblik, og tager sig af udnævnelsen kalender ved at informere pårørende om detaljerne. Dette giver os mulighed for at løse deres problemer ved at kombinere de forskellige systemer i en enkelt og sammenhængende digital service.
+							p.text-justify
+								| Vi har gentaget vores prototype lowfidelity papir highfidelity software. Vi har bygget hver version på den foregående, ved at bruge vores analyse på resultaterne fra interview og frie drøftelser, funktionelle konstruktive møder, og bruger interface scenarie tests. Vi har gennemført undersøgelser på tværs af flere interessenter, og opnået en fælles ramme for en fremtidig software-økosystem. Vi har installeret trinvist arbejder prototyper i midten, og derefter fulgte de pårørende, mens de bruger det i deres normale arbejdsrutiner, på daglig basis, med reelle data, for et par dage. Denne måde, vi skræddersyr vores system ikke for hvad de beder, men for hvad de har brug for.
+							p.text-justify
+								| Produktet består af en innovativ digital tjeneste, der hjælper centrum holde styr på de events, når de sker. Dens form og funktion, der er designet med direkte deltagelse af de facto-brugere, har til formål at reducere den tid, de bruger på begivenhed organisation, og levere en solid platform for kommunikation. Vores mål stien er at frigøre tid til personalet, lave aktiviteter gennemsigtige, så flere beboere deltager og dermed forbedre deres kognitive evner, og øge deres livskvalitet.
+							.row
+								.col-lg-3.text-center
+									img.img-responsive(src='img/portfolio/bredebo/bredebo01.jpg', alt='Plejecenter Bredebo')
+								.col-lg-3.text-center
+									img.img-responsive(src='img/portfolio/bredebo/bredebo02.jpg', alt='Plejecenter Bredebo')
+								.col-lg-3.text-center
+									img.img-responsive(src='img/portfolio/bredebo/bredebo03.jpg', alt='Plejecenter Bredebo')
+								.col-lg-3.text-center
+									img.img-responsive(src='img/portfolio/bredebo/bredebo04.jpg', alt='Plejecenter Bredebo')
+							.row
+								.col-lg-3.text-center
+									img.img-responsive(src='img/portfolio/bredebo/bredebo05.jpg', alt='Plejecenter Bredebo')
+								.col-lg-3.text-center
+									img.img-responsive(src='img/portfolio/bredebo/bredebo06.jpg', alt='Plejecenter Bredebo')
+								.col-lg-3.text-center
+									img.img-responsive(src='img/portfolio/bredebo/bredebo07.jpg', alt='Plejecenter Bredebo')
+								.col-lg-3.text-center
+									img.img-responsive(src='img/portfolio/bredebo/bredebo08.jpg', alt='Plejecenter Bredebo')
+							button.btn.btn-primary(type='button', data-dismiss='modal')
+								i.fa.fa-times
+								| 
+								| luk

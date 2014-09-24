@@ -1,0 +1,89 @@
+doctype html
+html(lang='en')
+head
+	meta(charset='utf-8')
+	meta(http-equiv='X-UA-Compatible', content='IE=edge')
+	meta(name='viewport', content='width=device-width, initial-scale=1')
+	meta(name='description', content='')
+	meta(name='author', content='')
+	title INNOSUND | innovative sundhedsløsninger
+	
+	meta(name='author', content='Vlad Manea')
+	meta(name='description', content='Vores filosofi er at identificere de behov og problemer i vores kunder først, og udvikle den nøjagtige system, adressering dem efter. Dette betyder, at produkterne er enkel og effektiv i naturen. Vores kombinerede erfaring i software arkitektur, design, udvikling og vedligeholdelse giver os mulighed for at levere produktpakker, der er modulopbygget og effektiv. Forud for at udvikle en løsning, vi grundigt forskning vores kunder for at få førstehånds erfaring med deres arbejde praksis, og konstruere en sammenhængende vision for den nødvendige ændring. Så vi genuinly involvere vores brugere i udviklingen af produktet, med henblik på at tilpasse den til deres behov. Vi leverer gentagelser af vores produkter til interessenterne, så vi anker vores visioner. Vi giver mulighed for et abonnement og modul-baserede pris for vores produkter. Det betyder, at vores brugere kan tilpasse deres betalinger, som de går med vores produkt, og tilføje eller fjerne funktionalitet til deres præferencer. De nødvendige ressourcer til at udvikle sådanne systemer er meget muligt i dag, hvilket gør priserne attraktivt for vores kunder så godt.')
+	meta(name='keywords', content='innovative sundhedsløsninger, brugervenlighed, fleksible priser, Andreas Johansen, Frederik Lauridsen, Vlad Manea, Konstantin Slavin-Borovskij')
+	meta(name='robots', content='all, index, follow')
+	meta(name='viewport', content='width=device-width')
+	
+	link(href='css/bootstrap.min.css', rel='stylesheet')
+	link(href='css/font-awesome.min.css', rel='stylesheet', type='text/css')
+	link(href='css/agency.css', rel='stylesheet')
+	link(href='http://fonts.googleapis.com/css?family=Montserrat:400,700', rel='stylesheet', type='text/css')
+	link(href='http://fonts.googleapis.com/css?family=Kaushan+Script', rel='stylesheet', type='text/css')
+	link(href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic', rel='stylesheet', type='text/css')
+	link(href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700', rel='stylesheet', type='text/css')
+	body#page-top.index
+		if errorMessage && errorMessage.length > 0 && errorMessage.length > 0
+			.alert.alert-danger.text-center #{errorMessage}
+		if successMessage && successMessage.length > 0
+			.alert.alert-success.text-center #{successMessage}
+		nav.navbar.navbar-default.navbar-fixed-top
+			.container
+				.navbar-header.page-scroll
+					button.navbar-toggle(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1')
+						span.sr-only Toggle navigation
+						span.icon-bar
+						span.icon-bar
+						span.icon-bar
+					a.navbar-brand.page-scroll(href='#page-top', title='INNOSUND') INNOSUND
+				#bs-example-navbar-collapse-1.collapse.navbar-collapse
+					block nav
+		header
+			.container
+				.intro-text
+					.intro-lead-in innovative sundhedsløsninger
+					.intro-heading innosund
+					a.page-scroll.btn.btn-xl(href='#introduction', title='fortæl mig mere')
+						| fortæl mig mere
+						br
+						i.fa.fa-arrow-down.fa-stack-2x
+		block body
+		footer
+			.container
+				.row
+					.col-md-4
+						span.copyright
+							| Copyright
+							| 
+							i.fa.fa-copyright
+							| 
+							| INNOSUND IvS 2014
+					.col-md-4
+						ul.list-inline.social-buttons
+							li
+								a.twitter(target='_blank', title='INNOSUND på Twitter', href='http://twitter.com')
+									i.fa.fa-twitter
+							li
+								a.facebook(target='_blank', title='INNOSUND på Facebook', href='https://www.facebook.com/pages/Innosunddk/283208588547358')
+									i.fa.fa-facebook
+							li
+								a.linkedin(target='_blank', title='INNOSUND på Linkedin', href='http://linkedin.com')
+									i.fa.fa-linkedin
+							li
+								a.google(target='_blank', title='INNOSUND på Google+', href='https://plus.google.com/109092343985773609230', rel='publisher')
+									i.fa.fa-google-plus
+					.col-md-4
+						ul.list-inline.quicklinks
+							li
+								| København, Danmark
+								| 
+								a(target='_blank', href='https://www.google.dk/maps/place/København/', title='Vis på kort')
+									i.fa.fa-map-marker.fa-2x
+									| vis på kort
+		block modals
+		script(src='javascripts/lib/jquery-1.11.1.min.js')
+		script(src='javascripts/lib/bootstrap.min.js')
+		script(src='javascripts/lib/jquery.easing.min.js')
+		script(src='javascripts/components/classie.js')
+		script(src='javascripts/components/cbp.animated.header.js')
+		script(src='javascripts/components/jquery.bootstrap.validation.js')
+		script(src='javascripts/layout/layout.js')

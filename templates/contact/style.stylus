@@ -1,0 +1,4 @@
+h1
+	color: #f00
+	padding: 10px
+	font-family: "Segoe", Verdana, sans-serif;
