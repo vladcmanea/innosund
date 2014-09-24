@@ -25,7 +25,6 @@ app.use(stylus.middleware({
 
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Set up jade for templates
 app.set('view engine', 'jade');
 
 app.use(session({ secret: 'sasesasiinsasesaci' })); // session secret
