@@ -316,7 +316,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
 	header .intro-text {
-		padding-top: 500px;
+		padding-top: 33%;
 		padding-bottom: 50px;
 	}
 
@@ -678,6 +678,7 @@ aside.clients {
 
 section#contact {
 	background-color: #222;
+	color: #fff;
 	background-image: url(../img/footer.jpg);
 	background-position: center center;
 	background-repeat: none;
@@ -686,6 +687,18 @@ section#contact {
 	background-size: cover;
 	-o-background-size: cover;
 }
+
+section#contact h3,
+section#contact h4,
+section#contact p {
+	text-transform: none;
+}
+
+section#contact .address {
+	padding: 25px;
+	margin-bottom: 50px;
+}
+
 
 section#contact .section-heading {
 	color: #fff;
@@ -807,6 +820,10 @@ ul.social-buttons li a:active {
 	background-clip: border-box;
 	-webkit-box-shadow: none;
 	box-shadow: none;
+}
+
+.portfolio-modal img.img-border {
+	border: 5px solid #f1f1f1;
 }
 
 .portfolio-modal .modal-content h2 {

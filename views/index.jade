@@ -5,13 +5,13 @@ block nav
 		li.hidden
 			a(href='#page-top')
 		li
-			a.page-scroll(title='Hvad vi kan', href='#introduction') Hvad vi kan
+			a.page-scroll(title='Om os', href='#introduction') Om os
 		li
 			a.page-scroll(title='Casestudier', href='#cases') Casestudier
 		li
 			a.page-scroll(title='Tidslinje', href='#timeline') Tidslinje
 		li
-			a.page-scroll(title='Teamet', href='#team') Teamet
+			a.page-scroll(title='Vores team', href='#team') Vores team
 		li
 			a.page-scroll(title='Kontakt', href='#contact') Kontakt
 
@@ -20,8 +20,8 @@ block body
 		.container
 			.row
 				.col-lg-12.text-center
-					h2.section-heading Hvad vi kan
-					h3.section-subheading.text-muted vores mål er at forbedre borgernes livskvalitet
+					h2.section-heading Om os
+					h3.section-subheading.text-muted Vores mål er at forbedre borgernes livskvalitet
 			.row.text-center
 				.col-md-4
 					span.fa-stack.fa-4x
@@ -49,88 +49,103 @@ block body
 			.row
 				.col-lg-12.text-center
 					h2.section-heading Casestudier
-					h3.section-subheading.text-muted innovativt, digitalt økosystem
+					h3.section-subheading.text-muted Innovativt, digitalt økosystem
 			.row
 				.col-md-12.col-sm-12.portfolio-item
-					a.portfolio-link(title='fortæl mig mere', href='#portfolioModal1', data-toggle='modal')
+					a.portfolio-link(title='fortæl mig mere', href='#portfolioModalPlejecenterBredebo', data-toggle='modal')
 						.portfolio-hover
 							.portfolio-hover-content
 								i.fa.fa-plus.fa-3x
 						img.img-responsive(src='img/portfolio/bredebo/carelendar.png', alt='Carelendar')
 					.portfolio-caption
-						h4 Plejecenter Bredebo
-						p.text-muted let anvendeligt og simpelt administrationsmodul for begivenheder på et plejecenter i Lyngby-Taarbæk Kommune
+						h4 Plejecenter Bredebo i Lyngby-Taarbæk Kommune
+						p.text-muted Simpelt administrationsmodul for begivenheder på et plejecenter
 	section#timeline
 		.container
 			.row
 				.col-lg-12.text-center
 					h2.section-heading Tidslinje
-					h3.section-subheading.text-muted følg med i vores arbejde
+					h3.section-subheading.text-muted Følg med i vores arbejde
 			.row
 				.col-lg-12
 					ul.timeline
 						li
 							.timeline-image
-								img.img-circle.img-responsive(src='img/about/dsi.png', alt='sommerskole i digital innovation')
+								img.img-circle.img-responsive(src='img/about/dsi.png', alt='Sommerskole i digital innovation')
 							.timeline-panel
 								.timeline-heading
 									h4.yellow August 11 2014
-									h4.subheading sommerskole i digital innovation
+									h4.subheading Sommerskole i digital innovation
 								.timeline-body
 									p.text-muted Hele holdet deltog i sommerskolekurset “Digital Services Innovation”, der blev arrangeret af Datalogisk Institut ved Københavns Universitet. Her blev vi tildelt Plejecenter Bredebo som casepartner.
 									p
-										a(target='_blank', href='http://www.diku.dk/english/news/news2014/digital-summerschool/') Sommerskole i digital innovation
+										a(target='_blank', href='http://www.diku.dk/english/news/news2014/digital-summerschool/')
+											i.fa.fa-external-link
+											| 
+											| Sommerskole i digital innovation
 						li.timeline-inverted
 							.timeline-image
-								img.img-circle.img-responsive(src='img/about/interview.png', alt='interviews på Bredebo')
+								img.img-circle.img-responsive(src='img/about/interview.png', alt='Interviews på Bredebo')
 							.timeline-panel
 								.timeline-heading
 									h4.yellow August 16 2014
-									h4.subheading interviews på Bredebo
+									h4.subheading Interviews på Bredebo
 								.timeline-body
 									p.text-muted Vi indledte vores research ved at analysere den tildelte case og besøge Bredebo. Derigennem fik vi førstehåndserfaring med de ansattes daglige rutiner og vi fik foretaget interviews med plejere og ansatte ved både interne og eksterne aktivitetscentre.
 						li
 							.timeline-image
-								img.img-circle.img-responsive(src='img/about/iteration.png', alt='iterative prototyper på Bredebo')
+								img.img-circle.img-responsive(src='img/about/iteration.png', alt='Iterative prototyper på Bredebo')
 							.timeline-panel
 								.timeline-heading
 									h4.yellow August 21 2014
-									h4.subheading iterative prototyper på Bredebo
+									h4.subheading Iterative prototyper på Bredebo
 								.timeline-body
 									p.text-muted Vi inddrog de ansatte på Bredebo i arbejdet med vores prototyper, hvorigennem vi dagligt fik lavet forbedringer til den. Plejerne og de ansatte ved aktivitetscentrene gav os værdifuld indsigt ved at lade os se eventuelle fejl og mangler i prototyperne tidligt og derved gøre det muligt at rette disse hurtigt og i højere grad tilpasse vores prototype til deres daglige arbejdsgang.
 									p.text-muted
-										a(target='_blank', href='https://drive.google.com/file/d/0ByBWo0bbetqpNnI3R3VIWGw5Y0k/edit?usp=sharing') Prototype 1
+										a.portfolio-link(target='_blank', href='#portfolioModalPrototype1', title='Prototype 1', data-toggle='modal')
+											i.fa.fa-image
+											| 
+											|  Prototype 1
 										| 
-										a(target='_blank', href='https://drive.google.com/file/d/0ByBWo0bbetqpcUthLUJIakpBb3c/edit?usp=sharing') Prototype 2
+										a.portfolio-link(target='_blank', href='#portfolioModalPrototype2', title='Prototype 1', data-toggle='modal')
+											i.fa.fa-image
+											| 
+											| Prototype 2
 										| 
-										a(target='_blank', href='https://drive.google.com/file/d/0ByBWo0bbetqpZm5ueHV1Nm9ya3c/edit?usp=sharing') Prototype 3
+										a.portfolio-link(target='_blank', href='#portfolioModalPrototype3', title='Prototype 1', data-toggle='modal')
+											i.fa.fa-image
+											| 
+											| Prototype 3
 						li.timeline-inverted
 							.timeline-image
-								img.img-circle.img-responsive(src='img/about/stallion.png', alt='prototype "glemt" på plejecenter')
+								img.img-circle.img-responsive(src='img/about/stallion.png', alt='Prototype "glemt" på plejecenter')
 							.timeline-panel
 								.timeline-heading
 									h4.yellow August 25 2014
-									h4.subheading prototype "glemt" på plejecenter
+									h4.subheading Prototype "glemt" på plejecenter
 								.timeline-body
 									p.text-muted Vi installerede vores prototype i afdelingens mødelokale, og gjorde den synlig via et TV. Indledende fik vi en enkelt plejer til at bruge vores prototype på en almindelig arbejdsdag. Senere lod vi hele afdelingen prøve en forbedret version af prototypen med ægte, aktuel data fra centeret. Denne test viste sig at være en stor succes.
 						li
 							.timeline-image
-								img.img-circle.img-responsive(src='img/about/pitch.png', alt='projektpitch for casepartnere')
+								img.img-circle.img-responsive(src='img/about/pitch.png', alt='Projektpitch for casepartnere')
 							.timeline-panel
 								.timeline-heading
 									h4.yellow August 27 2014
-									h4.subheading projektpitch for casepartnere
+									h4.subheading Projektpitch for casepartnere
 								.timeline-body
 									p.text-muted Vi præsenterede vores resultater til vores casepartnere, som var meget tilfredse med vores endelige prototype. De besluttede herefter at pitche idéen videre til kommunen.
 									p
-										a(target='_blank', href='https://drive.google.com/file/d/0ByBWo0bbetqpX1Z5VG82LVNoSTQ/edit?usp=sharing') Præsentationsmateriale
+										a(target='_blank', href='https://drive.google.com/file/d/0ByBWo0bbetqpX1Z5VG82LVNoSTQ/edit?usp=sharing')
+											i.fa.fa-align-justify
+											| 
+											| Præsentationsmateriale
 						li.timeline-inverted
 							.timeline-image
-								img.img-circle.img-responsive(src='img/about/pilot.png', alt='vejen til pilotprojektet')
+								img.img-circle.img-responsive(src='img/about/pilot.png', alt='Vejen til pilotprojektet')
 							.timeline-panel
 								.timeline-heading
 									h4.yellow September 15 2014
-									h4.subheading vejen til pilotprojektet
+									h4.subheading Vejen til pilotprojektet
 								.timeline-body
 									p.text-muted Vores casepartnere havde gode nyheder - vi fik startskuddet for at forberede vilkår for et pilotprojekt.
 						li
@@ -143,7 +158,10 @@ block body
 								.timeline-body
 									p.text-muted Vi fik vores ansøgning og interview godkendt af UCPH Innovation Hub, hvilket har givet os adgang til professionel rådgivning, coaching, workshops, et kontor og et netværk for iværksættere.
 									p
-										a(target='_blank', href='http://ie.ku.dk/studerende/ucphinnovationhub/') UCPH Innovation Hub
+										a(target='_blank', href='http://ie.ku.dk/studerende/ucphinnovationhub/')
+											i.fa.fa-external-link
+											| 
+											| UCPH Innovation Hub
 						li.timeline-inverted
 							.timeline-image
 								h4
@@ -151,13 +169,15 @@ block body
 									br
 									| skridt
 									br
+									| kommer
+									br
 									| snart
 	section#team.bg-light-gray
 		.container
 			.row
 				.col-lg-12.text-center
-					h2.section-heading Teamet
-					h3.section-subheading.text-muted bringer vi er et hold bestående af højtkvalificerede fagfolk med forskellige faglige baggrunde
+					h2.section-heading Vores team
+					h3.section-subheading.text-muted Vi er et hold bestående af højtkvalificerede fagfolk med forskellige faglige baggrunde
 			.row
 				.col-sm-3
 					.team-member
@@ -207,6 +227,35 @@ block body
 				.col-lg-12.text-center
 					h2.section-heading Kontakt
 			.row
+				.col-lg-6.address.text-right
+					h3 INNOSUND IvS
+					h4 Innovative Sundhedsløsninger
+				.col-lg-6.address
+					p
+						i.fa.fa-plus-square
+						| 
+						| cvr
+						| 
+						a(href='http://innosund.dk', target='_blank') snart
+						br
+						i.fa.fa-phone-square
+						| 
+						| telefon
+						| 
+						a(href='tel:004552619552', target='_blank') (+45) 5261 9552
+						br
+						i.fa.fa-envelope-square
+						| 
+						| email
+						| 
+						a(href='mailto:kontakt@innosund.dk', target='_blank') kontakt@innosund.dk
+						br
+						i.fa.fa-external-link-square
+						| 
+						| kontor
+						| 
+						a(href='https://www.google.dk/maps/place/K%C3%B8benhavn/', target='_blank') København, Danmark
+			.row
 				.col-lg-12
 					form#contactForm(method='post', action='/contact')
 						.row
@@ -233,7 +282,7 @@ block body
 									| send
 
 block modals
-	#portfolioModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+	#portfolioModalPlejecenterBredebo.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
 		.modal-content
 			.close-modal(data-dismiss='modal')
 				.lr
@@ -242,8 +291,8 @@ block modals
 				.row
 					.col-lg-8.col-lg-offset-2
 						.modal-body
-							h2 Plejecenter Bredebo
-							p.item-intro.text-muted let anvendeligt og simpelt administrationsmodul for begivenheder på et plejecenter i Lyngby-Taarbæk Kommune
+							h2 Plejecenter Bredebo i Lyngby-Taarbæk Kommune
+							p.item-intro.text-muted Simpelt administrationsmodul for begivenheder på et plejecenter
 							img.img-responsive(src='img/portfolio/bredebo/carelendar-full.png', alt='Carelendar')
 							p.text-justify Plejecentre har problemer med at organisere deres hektiske aktiviteter og aftaler for deres beboer. Der har lydt klager fra en række parter, der er utilfredse med at beboerne ikke er klar til deres aftaler som planlagt. Derudover, så bliver beboer, som misser deres aftale ofte forvirrede, hvilket nedsætter deres livskvalitet.
 							p.text-justify På Plejecenter Bredebo har de ansatte en fast proces for, hvordan man skal tilgå forskellige udfordringer, men de har for mange værktøjer at vælge mellem. De har fælles whiteboards, kalendere, individuelle notesbøger samt et digitalt helbredssystem. Vi kunne bekræfte at alle disse systemer opfylder de krav de ansattes arbejdsrutiner stiller, men også at de komplicerer videreformidling og behandling af information de ansatte i mellem. De ansatte erstatter ofte værktøjerne med “mund-til-mund”-metoden, hvilket får stor indflydelse når der skal planlægges i realtid.
@@ -268,6 +317,54 @@ block modals
 									img.img-responsive(src='img/portfolio/bredebo/bredebo07.jpg', alt='Plejecenter Bredebo')
 								.col-lg-3.text-center
 									img.img-responsive(src='img/portfolio/bredebo/bredebo08.jpg', alt='Plejecenter Bredebo')
+							button.btn.btn-primary(type='button', data-dismiss='modal')
+								i.fa.fa-times
+								| 
+								| luk
+	#portfolioModalPrototype1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+		.modal-content
+			.close-modal(data-dismiss='modal')
+				.lr
+					.rl
+			.container
+				.row
+					.col-lg-8.col-lg-offset-2
+						.modal-body
+							h2 Prototype 1
+							p.item-intro.text-muted Plejecenter Bredebo
+							img.img-responsive.img-border(src='img/portfolio/bredebo/prototype1.jpg', alt='Prototype 1')
+							button.btn.btn-primary(type='button', data-dismiss='modal')
+								i.fa.fa-times
+								| 
+								| luk
+	#portfolioModalPrototype2.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+		.modal-content
+			.close-modal(data-dismiss='modal')
+				.lr
+					.rl
+			.container
+				.row
+					.col-lg-8.col-lg-offset-2
+						.modal-body
+							h2 Prototype 2
+							p.item-intro.text-muted Plejecenter Bredebo
+							img.img-responsive(src='img/portfolio/bredebo/prototype2.png', alt='Prototype 2')
+							button.btn.btn-primary(type='button', data-dismiss='modal')
+								i.fa.fa-times
+								| 
+								| luk
+	#portfolioModalPrototype3.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+		.modal-content
+			.close-modal(data-dismiss='modal')
+				.lr
+					.rl
+			.container
+				.row
+					.col-lg-8.col-lg-offset-2
+						.modal-body
+							h2 Prototype 3
+							p.item-intro.text-muted Plejecenter Bredebo
+							img.img-responsive(src='img/portfolio/bredebo/prototype3.png', alt='Prototype 3')
 							button.btn.btn-primary(type='button', data-dismiss='modal')
 								i.fa.fa-times
 								| 
