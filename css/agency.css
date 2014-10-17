@@ -18,6 +18,10 @@ body {
 	color: #777;
 }
 
+.text-silent {
+	color: #aaa;
+}
+
 .text-primary {
 	color: #fed136;
 }
@@ -802,6 +806,13 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
 	background-color: #fed136;
+}
+
+ul.experience {
+	list-style-type: none;
+	padding-left: 0;
+	margin-bottom: 20px;
+	font-size: 12px;
 }
 
 .btn:focus,
